@@ -23,6 +23,8 @@ import Hook6 from './Hook6';
 import React from 'react';
 import Contextcopm1 from './Contextcopm1';
 import Counter1 from './Counter1';
+import DataFetch from './DataFetch';
+import ParentuseCallback from './ParentuseCallback';
 
 export const UserContext = React.createContext();
 export const PSKContext = React.createContext();
@@ -63,8 +65,10 @@ function App() {
           <Contextcopm1 />
         </PSKContext.Provider>
       </UserContext.Provider> */}
-      
-      <Counter1/>
+
+      {/* <Counter1/> */}
+      {/* <DataFetch/> */}
+      <ParentuseCallback />
 
 
     </div>

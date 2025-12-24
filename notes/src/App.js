@@ -25,6 +25,7 @@ import Contextcopm1 from './Contextcopm1';
 import Counter1 from './Counter1';
 import DataFetch from './DataFetch';
 import ParentuseCallback from './ParentuseCallback';
+import Usermemo from './Usermemo';
 
 export const UserContext = React.createContext();
 export const PSKContext = React.createContext();
@@ -68,7 +69,8 @@ function App() {
 
       {/* <Counter1/> */}
       {/* <DataFetch/> */}
-      <ParentuseCallback />
+      {/* <ParentuseCallback /> */}
+      <Usermemo />
 
 
     </div>

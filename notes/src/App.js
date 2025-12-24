@@ -27,6 +27,7 @@ import DataFetch from './DataFetch';
 import ParentuseCallback from './ParentuseCallback';
 import Usermemo from './Usermemo';
 import UserefDemo from './UserefDemo';
+import HookTimer from './HookTimer';
 
 export const UserContext = React.createContext();
 export const PSKContext = React.createContext();
@@ -72,7 +73,8 @@ function App() {
       {/* <DataFetch/> */}
       {/* <ParentuseCallback /> */}
       {/* <Usermemo /> */}
-      <UserefDemo/>
+      {/* <UserefDemo/> */}
+      <HookTimer/>
 
 
     </div>

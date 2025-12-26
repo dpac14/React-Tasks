@@ -28,6 +28,8 @@ import ParentuseCallback from './ParentuseCallback';
 import Usermemo from './Usermemo';
 import UserefDemo from './UserefDemo';
 import HookTimer from './HookTimer';
+import CreateHook from './Component/CreateHook';
+import CustomHook from './Component/CustomHook';
 
 export const UserContext = React.createContext();
 export const PSKContext = React.createContext();
@@ -74,7 +76,8 @@ function App() {
       {/* <ParentuseCallback /> */}
       {/* <Usermemo /> */}
       {/* <UserefDemo/> */}
-      <HookTimer/>
+      {/* <HookTimer/> */}
+      <CustomHook />
 
 
     </div>

@@ -18,7 +18,7 @@ export default class HookClass extends Component {
     render() {
         return (
             <div>
-                <button onClick={() => this.setState({count: this.state.count +1 })}>Click Me</button>
+                <button onClick={() => this.setState({ count: this.state.count + 1 })}>Click Me</button>
             </div>
         );
     }

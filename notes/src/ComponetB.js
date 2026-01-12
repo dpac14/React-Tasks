@@ -5,7 +5,7 @@ export default class ComponetB extends Component {
   render() {
     return (
       <div>
-        <ComponetC/>
+        <ComponetC />
       </div>
     );
   }

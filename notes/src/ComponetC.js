@@ -6,9 +6,9 @@ export default class ComponetC extends Component {
     return (
       <div>
         <ContextConsumer>
-            {value=>{
-                return<h1>Name: {value}</h1>
-            }}
+          {value => {
+            return <h1>Name: {value}</h1>
+          }}
         </ContextConsumer>
       </div>
     );

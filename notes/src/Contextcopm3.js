@@ -5,9 +5,9 @@ function Contextcopm3() {
   return (
     <div>
       <UserContext.Consumer>
-{name=>{
-    return <h1>Hello {name} </h1>
-}}
+        {name => {
+          return <h1>Hello {name} </h1>
+        }}
       </UserContext.Consumer>
     </div>
   );

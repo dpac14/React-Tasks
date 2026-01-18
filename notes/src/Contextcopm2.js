@@ -7,6 +7,7 @@ function Contextcopm2() {
   return (
     <div>
       {user}-{user1}
+   
     </div>
   );
 }
